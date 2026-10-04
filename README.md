@@ -77,14 +77,20 @@ The system retrieves the relevant passage, generates an answer, and displays the
 
 ## Testing
 
-The system was tested using eight questions based on the source document.
+The system was tested using questions based on the source document.
 
 The test set includes:
-- Questions that can be answered from the document
-- Questions about specific sections and FAQs
-- One question that cannot be answered from the document
+- Questions about the Student Support Desk
+- Questions about GDG On Campus USAR events
+- Questions about workshops
+- Questions about project submissions
+- An unanswerable question
 
-The unanswerable question asks for the name of the current community lead, which is not specified in the source document.
+The unanswerable question asks for the name of the current community lead. The source document does not specify the current community lead.
+
+The system retrieves a relevant passage and displays the source page along with the answer.
+
+
 
 ## Experiments
 
